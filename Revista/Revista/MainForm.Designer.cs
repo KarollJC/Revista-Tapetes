@@ -42,7 +42,7 @@ namespace Revista
 			this.lbltapetecen = new System.Windows.Forms.Label();
 			this.lbltapeteder = new System.Windows.Forms.Label();
 			this.lbltapeteizq = new System.Windows.Forms.Label();
-			this.button1 = new System.Windows.Forms.Button();
+			this.btninfo = new System.Windows.Forms.Button();
 			this.button2 = new System.Windows.Forms.Button();
 			this.pictureBox7 = new System.Windows.Forms.PictureBox();
 			this.pictureBox8 = new System.Windows.Forms.PictureBox();
@@ -93,6 +93,7 @@ namespace Revista
 			this.lbltapetecen.Size = new System.Drawing.Size(164, 23);
 			this.lbltapetecen.TabIndex = 3;
 			this.lbltapetecen.Text = "Titulo del tapete";
+			this.lbltapetecen.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
 			// 
 			// lbltapeteder
 			// 
@@ -102,6 +103,7 @@ namespace Revista
 			this.lbltapeteder.Size = new System.Drawing.Size(121, 23);
 			this.lbltapeteder.TabIndex = 4;
 			this.lbltapeteder.Text = "Titulo del tapete";
+			this.lbltapeteder.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
 			// 
 			// lbltapeteizq
 			// 
@@ -111,18 +113,20 @@ namespace Revista
 			this.lbltapeteizq.Size = new System.Drawing.Size(121, 23);
 			this.lbltapeteizq.TabIndex = 5;
 			this.lbltapeteizq.Text = "Titulo del tapete";
+			this.lbltapeteizq.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
 			// 
-			// button1
+			// btninfo
 			// 
-			this.button1.BackColor = System.Drawing.Color.White;
-			this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
-			this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.button1.Location = new System.Drawing.Point(262, 366);
-			this.button1.Name = "button1";
-			this.button1.Size = new System.Drawing.Size(93, 28);
-			this.button1.TabIndex = 6;
-			this.button1.Text = "Info.";
-			this.button1.UseVisualStyleBackColor = false;
+			this.btninfo.BackColor = System.Drawing.Color.White;
+			this.btninfo.Cursor = System.Windows.Forms.Cursors.Hand;
+			this.btninfo.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.btninfo.Location = new System.Drawing.Point(262, 366);
+			this.btninfo.Name = "btninfo";
+			this.btninfo.Size = new System.Drawing.Size(93, 28);
+			this.btninfo.TabIndex = 6;
+			this.btninfo.Text = "Info.";
+			this.btninfo.UseVisualStyleBackColor = false;
+			this.btninfo.Click += new System.EventHandler(this.BtninfoClick);
 			// 
 			// button2
 			// 
@@ -261,7 +265,7 @@ namespace Revista
 			this.Controls.Add(this.pictureBox10);
 			this.Controls.Add(this.pictureBox9);
 			this.Controls.Add(this.button2);
-			this.Controls.Add(this.button1);
+			this.Controls.Add(this.btninfo);
 			this.Controls.Add(this.lbltapeteizq);
 			this.Controls.Add(this.lbltapeteder);
 			this.Controls.Add(this.lbltapetecen);
@@ -297,7 +301,7 @@ namespace Revista
 		private System.Windows.Forms.PictureBox pictureBox7;
 		private System.Windows.Forms.PictureBox pbant;
 		private System.Windows.Forms.Button button2;
-		private System.Windows.Forms.Button button1;
+		private System.Windows.Forms.Button btninfo;
 		private System.Windows.Forms.Label lbltapeteizq;
 		private System.Windows.Forms.Label lbltapeteder;
 		private System.Windows.Forms.Label lbltapetecen;
