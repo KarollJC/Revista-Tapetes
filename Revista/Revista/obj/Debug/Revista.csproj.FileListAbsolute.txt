@@ -12,3 +12,10 @@ C:\Users\CC1_PC35\Tapetes\Revista\Revista\obj\Debug\Revista.MainForm.resources
 C:\Users\CC1_PC35\Tapetes\Revista\Revista\obj\Debug\Revista.csproj.GenerateResource.Cache
 C:\Users\CC1_PC35\Tapetes\Revista\Revista\obj\Debug\Revista.exe
 C:\Users\CC1_PC35\Tapetes\Revista\Revista\obj\Debug\Revista.pdb
+C:\Users\CC1_PC47\Documents\Revista-Tapetes\Revista\Revista\bin\Debug\Revista.exe
+C:\Users\CC1_PC47\Documents\Revista-Tapetes\Revista\Revista\bin\Debug\Revista.pdb
+C:\Users\CC1_PC47\Documents\Revista-Tapetes\Revista\Revista\obj\Debug\Revista.csprojResolveAssemblyReference.cache
+C:\Users\CC1_PC47\Documents\Revista-Tapetes\Revista\Revista\obj\Debug\Revista.MainForm.resources
+C:\Users\CC1_PC47\Documents\Revista-Tapetes\Revista\Revista\obj\Debug\Revista.csproj.GenerateResource.Cache
+C:\Users\CC1_PC47\Documents\Revista-Tapetes\Revista\Revista\obj\Debug\Revista.exe
+C:\Users\CC1_PC47\Documents\Revista-Tapetes\Revista\Revista\obj\Debug\Revista.pdb
